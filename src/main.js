@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 // 导入全局样式表
 // import './plugins/element.js'
-import ElementUI from 'element-ui'
+import ElementUI, {Message, MessageBox} from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/css/global.css'
 // 导入字体图标
@@ -23,6 +23,8 @@ Vue.config.productionTip = false
 Vue.use(ElementUI)
 //将elementUI中的message挂载到Vue中
 Vue.prototype.$message=ElementUI.Message
+//挂载 elementUI中的confirm组件
+Vue.prototype.$confirm=MessageBox.confirm
 new Vue({
     router,
     render: h => h(App)

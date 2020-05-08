@@ -24,3 +24,5 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # about
 **这是我关于学习vue的电商后台项目**
+
+**git push -u origin user**

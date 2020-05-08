@@ -3,6 +3,7 @@ html,body,#app{
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 1366px; /*最小屏幕宽度为 1366像素*/
 }
 .el-breadcrumb{
     margin-bottom: 15px;
